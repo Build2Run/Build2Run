@@ -1,6 +1,6 @@
 /* Redesigned Hero Section */
 .hero-section {
-    background-image: url('/images/home-hero-image.jpg'); /* Replace with your image */
+    background-image: url('images/home-hero-image.jpg'); /* Replace with your image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

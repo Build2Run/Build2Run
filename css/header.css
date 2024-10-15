@@ -1,0 +1,20 @@
+/* Header Styling for Text as Logo */
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #007bff; /* Golden hover effect for brand name */
+}
+
+/* Navigation Links Styling */
+.navbar-nav .nav-link {
+    font-size: 1.0rem;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Add hover effect */
+}

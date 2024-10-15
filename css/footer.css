@@ -1,0 +1,53 @@
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+footer h5 {
+    font-size: 1.0rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+footer p, footer li {
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #9da5b1;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+footer .bi {
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+}
+
+footer .bi:hover {
+    color: #007bff;
+}
+
+footer hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+@media (max-width: 576px) {
+    footer p, footer li {
+        font-size: 0.8rem;
+    }
+
+    footer .bi {
+        font-size: 1.2rem;
+    }
+}

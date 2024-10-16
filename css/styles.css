@@ -177,87 +177,44 @@ blockquote {
     color: #fff;
 }
 
-/* Card Styling */
-.testimonial-card {
-    border: none;
-    border-radius: 10px;
-    background-color: #fff;
-    color: #333;
-    transition: transform 0.3s ease;
+/* Testimonial Styling */
+.testimonials-section {
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
 }
 
-.testimonial-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Client Image */
-.testimonial-img img {
-    border: 3px solid #007bff;
-    padding: 5px;
-}
-
-/* Testimonial Text */
-.testimonial-text {
-    font-size: 1rem;
-    font-style: italic;
-    margin-top: 20px;
-}
-
-/* Section Title */
-#testimonials h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #fff;
+.testimonials-section h2 {
+    font-size: 2rem;
+    color: #007bff;
     margin-bottom: 30px;
 }
 
-/* Custom Carousel Navigation Controls */
-.custom-control-prev, .custom-control-next {
-    position: absolute;
-    top: 0; /* Align to the top */
-    bottom: 0; /* Align to the bottom */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;  /* Width of the square */
-    height: 100%; /* Full height of the carousel */
-    background-color: white; /* White background */
-    border: none; /* No border */
-    border-radius: 5px; /* Slightly rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Initial shadow for depth */
-    transition: all 0.3s ease; /* Smooth transition for hover */
+.testimonial-box {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.custom-control-prev {
-    left: 10px; /* Space from the left */
+.testimonial-text {
+    font-size: 1.25rem;
+    color: #555555;
+    margin-bottom: 20px;
+    font-style: italic;
 }
 
-.custom-control-next {
-    right: 10px; /* Space from the right */
+.testimonial-author {
+    font-size: 1.1rem;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
-/* Hover Effects */
-.custom-control-prev:hover, .custom-control-next:hover {
-    background-color: #78b9ff; /* Change background to #007bff on hover */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Increased shadow on hover */
-}
-
-/* Custom Icons */
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    background-image: none; /* Remove default Bootstrap icon */
-}
-
-/* Icon Styling */
-.fas {
-    font-size: 24px; /* Size of the arrows */
-    color: black; /* Arrow color */
-}
-
-/* Media Query to Hide Arrows on Mobile Devices */
-@media (max-width: 768px) { /* Adjust the breakpoint as needed */
-    .custom-control-prev,
-    .custom-control-next {
-        display: none; /* Hide arrows on screens smaller than 768px */
-    }
+.testimonial-role {
+    font-size: 1rem;
+    color: #777777;
 }

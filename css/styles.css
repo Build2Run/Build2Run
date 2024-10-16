@@ -171,33 +171,25 @@ blockquote {
     }
 }
 
-/* Testimonials Section Styling */
-.bg-gradient {
-    background: linear-gradient(135deg, #007bff, #6610f2);
-    color: #fff;
-}
-
-/* Testimonial Styling */
 .testimonials-section {
-    padding: 50px 20px;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 40px 0;
+    width: 100%; /* Full width */
+    padding: 50px 20px; /* Padding for top/bottom and sides */
 }
 
 .testimonials-section h2 {
     font-size: 2rem;
     color: #007bff;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .testimonial-box {
-    background: #ffffff;
-    border-radius: 8px;
+    background: none; /* No background */
     padding: 30px;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Simple border */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for emphasis */
 }
 
 .testimonial-text {
